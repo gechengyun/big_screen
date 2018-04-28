@@ -1,0 +1,194 @@
+html,body{
+    width:100%;
+    height: 100%;
+
+    overflow-x: hidden; overflow-y: hidden;
+}
+.body{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg.png");
+    background-size: auto;
+}
+body {
+    margin: 0;
+}
+.top{
+    height: 105px;
+    margin-top: 10px;
+    background: url("../img/top.png")no-repeat center;
+}
+.div{
+    height:100%;
+}
+.model1{
+    width:95%;
+    height: 48%;
+    margin: 0 5% 5% 5%;
+    background: linear-gradient(to left, #00DCFF,#00DCFF) left top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat;
+    background-size:2px 20px, 20px 2px, 2px 20px, 20px 2px;
+
+
+}
+.height{
+    height: 1px;
+}
+.boder{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg_1.png");
+}
+.title{
+    font-size: 18px;
+    color: #FFF100;
+    background: url("../img/title_icon.png")no-repeat left;
+    margin: 10px;
+    padding: 0px 0 0 35px;
+
+
+}
+#equipment,#project{
+    width: 100%;
+    height: 80%;
+}
+
+.model21{
+    height: 55%;
+}
+.model21 .data{
+    width: 100%;
+    height: 85px;
+    background: url("../img/data_bg.png")no-repeat center;
+    background-size: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.model21 .data span{
+    font-size: 20px;
+    color: #FFF100;
+
+}
+.model21 .data label{
+    color: #66D7FF;
+}
+#chinaMap{
+    height: 100%;
+}
+#proMap{
+    height: 100%;
+}
+.model22{
+    height: 43%;
+    background: linear-gradient(to left, #00DCFF,#00DCFF) left top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat;
+    background-size:2px 20px, 20px 2px, 2px 20px, 20px 2px;
+}
+.model22 .div{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg_1.png");
+}
+#year{
+    height: 85%;
+}
+.model31 {
+    height: 55%;
+
+}
+.model311{
+     height: 95%;
+    margin-right: 3%;
+    background: linear-gradient(to left, #00DCFF,#00DCFF) left top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat;
+    background-size:2px 20px, 20px 2px, 2px 20px, 20px 2px;
+    padding: 0px!important;
+}
+.model311 .div{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg_1.png");
+}
+#monitoring{
+    height: 90%;
+}
+.model312{
+    width: 45%!important;
+    height: 95%;
+    background: linear-gradient(to left, #00DCFF,#00DCFF) left top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat;
+    background-size:2px 20px, 20px 2px, 2px 20px, 20px 2px;
+    padding: 0px!important;
+}
+.model312  .div{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg_1.png");
+}
+.model32{
+    width:98%;
+    height: 43%;
+    background: linear-gradient(to left, #00DCFF,#00DCFF) left top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) right top no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to bottom, #00DCFF, #00DCFF) left bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat,
+    linear-gradient(to left, #00DCFF, #00DCFF) right bottom no-repeat;
+    background-size:2px 20px, 20px 2px, 2px 20px, 20px 2px;
+}
+.model32  .div{
+    width:100%;
+    height: 100%;
+    background: url("../img/bg_1.png");
+}
+#num{
+    height: 90%;
+}
+#alarmInfo{
+    padding: 10px;
+}
+#alarmInfo .p{
+    line-height: 20px;
+    color: #66D6FF;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul,li,dl,ol{list-style:none;padding: 0px!important;}
+
+.list_lh{ height:350px; overflow:hidden;}
+.list_lh li{ padding:10px;}
+.list_lh li.lieven{ background:rgba(16,29,59,0.5);}
+.list_lh li p{ height:34px; line-height:34px; }
+.list_lh li p a{ float:left;font-size: 16px;color: #66D6FF}
+.list_lh li p span{ float:right;color: #66D6FF}
+.list_lh li p a.btn_lh{ background:#28BD19; height:17px; line-height:17px; color:#fff; padding:0 5px; margin-top:4px; display:inline-block; float:right;}
+.btn_lh:hover{ color:#fff; text-decoration:none;}
+
+.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}

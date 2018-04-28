@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中央空调远程监测大数据平台</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/echarts.js"></script>
+    <script src="./js/china.js"></script>
+    <script src="./js/main.js"></script>
+
+</head>
+<body style="height: 100%">
+<div class="body" style="height: 100%">
+    <div class="row" style="height: 10%">
+        <div class="col-lg-12 top">
+
+        </div>
+
+    </div>
+    <div class="row" style="height: 87%">
+        <div class="col-lg-2 div">
+           <div class="model1">
+              <div class="boder">
+                  <div class="height"></div>
+                  <div class="title">设备故障统计TOP10</div>
+                  <div id="equipment">
+
+                  </div>
+              </div>
+           </div>
+            <div class="model1">
+                <div class="boder">
+                    <div class="height"></div>
+                    <div class="title">中央空调发生故障项目top10</div>
+                    <div id="project">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 div">
+            <div class="model21">
+                <div class="col-lg-2" style="padding-top: 40px">
+                    <div class="data">
+                        <span>31,243,210</span>
+                        <br>
+                        <label>空调总台数</label>
+                    </div>
+                    <div class="data">
+                        <span>217,352</span>
+                        <br>
+                        <label>项目总数</label>
+                    </div>
+                    <div class="data">
+                        <span>4,173,210</span>
+                        <br>
+                        <label>设备总数</label>
+                    </div>
+                    <div class="data">
+                        <span>11,315</span>
+                        <br>
+                        <label>故障总数</label>
+                    </div>
+                </div>
+                <div class="col-lg-6" id="chinaMap">
+
+                </div>
+                <div class="col-lg-4" id="proMap"></div>
+            </div>
+            <div class="model22">
+                <div class="div">
+                    <div class="height"></div>
+                    <div class="title" >中央空调使用年限分布统计</div>
+                    <div id="year"></div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 div" >
+            <div class="model31">
+               <div class="col-lg-6 model311">
+                   <div class="div">
+                       <div class="height"></div>
+                       <div class="title" >当前故障报警信息</div>
+                       <div id="alarmInfo" class="list_lh">
+                           <ul>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a  class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a  class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a  class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+                               <li>
+
+                                   <p><a class="a_blue">财富广场首座，冷却水泵故障</a><span>17:28:05</span></p>
+                               </li>
+
+
+                           </ul>
+
+                       </div>
+                   </div>
+               </div>
+                <div class="col-lg-6 model312">
+                    <div class="div">
+                        <div class="height"></div>
+                        <div class="title" >全年监控情况统计</div>
+                        <div id="monitoring">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="model32">
+                <div class="div">
+                    <div class="height"></div>
+                    <div class="title" >中央空调区域数量分布</div>
+                    <div id="num">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.list_lh li:even').addClass('lieven');
+    })
+    $(function(){
+        $("div.list_lh").myScroll({
+            speed:40, //数值越大，速度越慢
+            rowHeight:43 //li的高度
+        });
+    });
+</script>
+</body>
+</html>
